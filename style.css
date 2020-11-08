@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+body {
+    white-space: nowrap;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    background-color: #DDD;
+}
+
+div {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    white-space: normal;
+}
+
+#menu {
+    min-width: 200px;
+    max-width: 400px;
+    width: 20%;
+    font-size: 20px;
+}
+
+#content {
+    min-width: 400px;
+    width: 80%;
+    padding-right: 20px;
+}
+
+h1 {
+    font-family: Raleway;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    padding: 5px;
+}
+
+#projects {
+    list-style: square;
+}
